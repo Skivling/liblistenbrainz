@@ -423,7 +423,7 @@ class ListenBrainz:
         :param offset: the number of release groups to skip from the beginning, for pagination, defaults to 0.
         :type offset: int, optional
 
-        :param time_range: the time range, can be 'all_time', 'month', 'week' or 'year'
+        :param time_range: the time range, can be 'week', 'month', 'quarter', 'half_yearly', 'year', 'this_week', 'this_month', 'this_year' or 'all_time'.
         :type time_range: str
 
         :return: the release groups listened to by the user in the time range with listen counts and other data
